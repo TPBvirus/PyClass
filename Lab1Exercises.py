@@ -8,9 +8,9 @@ print("2    4    8")
 print("3    9    27")
 print("4    16   64")
 
-#1..9
+#1.9
 width = 4.5
 height = 7.9
 area = width * height
 
-print("This is the area (cm^2)" + str(area))
+print("This is the area (cm^2): " + str(area))
