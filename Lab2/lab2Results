@@ -1,5 +1,32 @@
+Ex 2.5
+
+What is your total: 1234.00
+What is your tip percentage: 12
+Your tip is: 148.07999999999998
+Your subtotal is: 1382.08
+
+============================================================
+
+Ex 2.13
+
 What is your number: 1234
 4
 3
 2
 1
+
+===============================================================
+
+Ex 2.15
+
+What is the length of one side: 12
+Area = 374.12 cm^2
+
+==============================================================
+
+Ex 2.19
+
+Enter Investment: 1000
+Enter Annual Interest: 4.25
+Approximate number of years the investment will be held: 1
+Accumulated Value: 1043.34
