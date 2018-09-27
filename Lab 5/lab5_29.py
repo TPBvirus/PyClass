@@ -1,4 +1,4 @@
-for x in range(2001, 2100):
+for x in range(2001, 2101):
     if x % 4 == 0:
         print(x , end = ' ')
 

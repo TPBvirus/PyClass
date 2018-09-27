@@ -3,6 +3,7 @@ for i in range(1,200):
     kg = i* 2.2
     print(i, "  ", "%.2f" % kg)
 
+print("Pounds    Kilograms\n==================")
 i = 1
 
 while i <= 200:

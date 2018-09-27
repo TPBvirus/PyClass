@@ -1,0 +1,66 @@
+#Thomas Bercasio
+#Lab 5
+#9/27/2018
+
+#Exercise 5.3
+
+print("Pounds    Kilograms\n==================")
+for i in range(1,200):
+    kg = i* 2.2
+    print(i, "  ", "%.2f" % kg)
+
+print("Pounds    Kilograms\n==================")
+i = 1
+
+while i <= 200:
+    kg = i * 2.2
+    print(i, "  ", "%.2f" % kg)
+    i += 1
+
+#Exercise 5.17
+
+#For loop
+for x in range(33, 126, 10):
+    for z in range (0,10):
+        print(" ", x+z, end = '')
+    print()
+    for y in range (0, 10):
+        if x+y < 100:
+            print(" ", chr(x+y), end = ' ')
+        else:
+            print(" ", chr(x+y), end = '  ')
+    print()
+
+#while loop
+
+decimalcode = 33
+
+while decimalcode <= 126:
+    i = 0
+    j = 0
+    while i <= 10:
+        print(" ", decimalcode + i, end = '')
+        i += 1
+    print()
+    while j <= 10:
+        if j +decimalcode < 100:
+            print(" ", chr(decimalcode + j), end = ' ')
+        else:
+            print(" ", chr(decimalcode + j), end = '  ')
+        j += 1
+    print()
+    decimalcode += 10
+
+#Exercise 5.29
+
+for x in range(2001, 2101):
+    if x % 4 == 0:
+        print(x , end = ' ')
+
+print()
+
+i = 2001
+while i <= 2100:
+    if i % 4 == 0:
+        print(i , end = ' ')
+    i += 1
