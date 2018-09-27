@@ -1,0 +1,63 @@
+#Thomas Bercasio
+#8/30/2018
+#lab 2
+
+Ex 2.5
+
+total = eval(input("What is your total: "))
+percent = eval(input("What is your tip percentage: "))
+tip = total * ( percent / 100 )
+subtotal = tip + total
+
+print("Your tip is: " + str(tip))
+print("Your subtotal is: " + str(subtotal))
+
+============================================================
+
+Ex 2.13
+
+num = eval(input("What is your number: "))
+
+first = int(num) % 10
+num -= first
+first /= 1
+second = int(num) % 100
+num -= second
+second /= 10
+third = int(num) % 1000
+num -= third
+third /= 100
+fourth = int(num) % 10000
+fourth /= 1000
+
+print("%d\n%d\n%d\n%d\n" % (first, second, third, fourth))
+
+===============================================================
+
+Ex 2.15
+
+import math
+
+side = input("What is the length of one side: ")
+
+area = ( ( 3 * math.sqrt(3) ) / 2 ) * math.pow(float(side), 2)
+
+print("Area = %.2f cm^2" % area)
+
+==============================================================
+
+Ex 2.19
+
+import math
+
+InvestmentAmount = input("Enter Investment: ")
+AnnualInterest = input("Enter Annual Interest: ")
+Years = input("Approximate number of years the investment will be held: ")
+
+AnnualInterest = float(AnnualInterest)/100
+
+InterestAccrued =  math.pow( (1 + (AnnualInterest/12 ) ) , 12 )
+
+futureInvestmentValue = float(InvestmentAmount) * InterestAccrued
+
+print("Accumulated Value: %.2f" % futureInvestmentValue)
